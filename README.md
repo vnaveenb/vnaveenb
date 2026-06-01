@@ -8,7 +8,7 @@ LangChain · LangGraph · FastAPI · Python · Docker · GCP · AWS
 <p align="center">
 <a href="https://linkedin.com/in/naveenbusiraju/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
 <a href="mailto:naveenbusiraju@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
-<a href="https://github.com/naveenbusiraju" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://github.com/vnaveenb" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 ---
@@ -52,7 +52,7 @@ Six production-pattern LLM systems — each solving a problem that actually brea
 <tr>
 <td width="50%">
 
-### 💬 [Multi-Provider Chat Core](https://github.com/naveenbusiraju/project-1-multi-provider-chat)
+### 💬 [Multi-Provider Chat Core](https://github.com/vnaveenb/llm-multi-provider-chat-gemini-openai-os)
 The provider is a **runtime env var, not a code dependency** — swap Gemini, GPT-4o, Claude, or Bedrock with zero code changes. Real-time SSE streaming, Redis-backed conversation memory, function calling, and automatic provider fallback.
 
 `FastAPI` `LangChain` `Redis` `LangSmith` `Docker`
@@ -60,7 +60,7 @@ The provider is a **runtime env var, not a code dependency** — swap Gemini, GP
 </td>
 <td width="50%">
 
-### 🔍 [RAG App with Evaluations](https://github.com/naveenbusiraju/rag-app-with-evaluations)
+### 🔍 [RAG App with Evaluations](https://github.com/vnaveenb/rag-eval-suite)
 Most RAG demos stop at "it works." This one **measures how well it works** — RAGAS metrics (Faithfulness, Answer Relevancy, Context Precision, Context Recall) baked in. Local embeddings, LLMs hot-swappable via one config line.
 
 `FastAPI` `ChromaDB` `LiteLLM` `RAGAS` `sentence-transformers`
@@ -70,36 +70,44 @@ Most RAG demos stop at "it works." This one **measures how well it works** — R
 <tr>
 <td width="50%">
 
-### 🤖 [Agent with Tool Calls + Retries](https://github.com/naveenbusiraju/agent-tool-calls-retries)
+### 🤖 [Agent with Tool Calls + Retries](https://github.com/vnaveenb/agent-tool-calls-retries)
 Production agents need **audit trails**. ReAct loop with exponential backoff retries, errors fed back as context for LLM recovery, and a full JSON execution trace saved for every run. 31 tests passing.
 
 `FastAPI` `LiteLLM` `function calling`
 
+[Live Demo →](https://agent.naveenb.dev)
+
 </td>
 <td width="50%">
 
-### 📊 [Token + Cost Budget Dashboard](https://github.com/naveenbusiraju/token-cost-budget-dashboard)
+### 📊 [Token + Cost Budget Dashboard](https://github.com/vnaveenb/token-cost-budget-dashboard)
 LLM apps **leak money silently**. Per-request token logging with exact costs, real-time dashboards by endpoint/model/user, hard 429 budget enforcement before limits are hit — not after. 40 tests passing.
 
 `FastAPI` `SQLite` `LiteLLM` `live dashboard`
+
+[Live Demo →](https://cost.naveenb.dev)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### ⚡ [Async Inference Queue](https://github.com/naveenbusiraju/async-inference-queue)
+### ⚡ [Async Inference Queue](https://github.com/vnaveenb/async-llm-inference-queue)
 100 users, 10-second LLM calls — **you can't hold HTTP connections open that long**. Redis-backed priority job queue, Dead Letter Queue for failed jobs, bounded worker concurrency, real-time monitoring. 36 tests passing.
 
 `FastAPI` `Redis` `Docker Compose` `LiteLLM`
 
+[Live Demo →](https://llmqueue.naveenb.dev)
+
 </td>
 <td width="50%">
 
-### 🔀 [Model Fallback Router](https://github.com/naveenbusiraju/model-fallback-router)
+### 🔀 [Model Fallback Router](https://github.com/vnaveenb/llm-model-fallback-router)
 Provider outages and rate limits shouldn't take your system down. **Circuit breaker** with auto-recovery, three routing strategies (priority / round-robin / latency-weighted), p50/p95/p99 SLA tracking. 36 tests passing.
 
 `FastAPI` `LiteLLM` `Docker Compose` `SQLite`
+
+[Live Demo →](https://llm-router.naveenb.dev)
 
 </td>
 </tr>
@@ -113,15 +121,17 @@ Provider outages and rate limits shouldn't take your system down. **Circuit brea
 <tr>
 <td width="50%">
 
-### 🌱 [Carbon Calculator Platform](https://github.com/naveenbusiraju/carbon-calculator-platform)
+### 🌱 [Carbon Calculator Platform](https://github.com/vnaveenb/carbon-calculator)
 Role-based web app for laptop lifecycle carbon analysis — vendors upload emission profiles, admins manage regional emission factors, users estimate and compare device impact. Dockerized with GitHub Actions CI.
 
 `Node.js` `Express` `MySQL` `Docker` `GitHub Actions`
 
+[Live Demo →](https://carbon.naveenb.dev)
+
 </td>
 <td width="50%">
 
-### 📋 [ClipboardHistory for macOS](https://github.com/naveenbusiraju/clipboard-history-macos)
+### 📋 [ClipboardHistory for macOS](https://github.com/vnaveenb/ClipboardHistory)
 Native macOS clipboard manager — like Windows Win+V, built with SwiftUI. Global hotkey (⌘⇧V), floating panel, instant search, pinned items, type detection. Persistent across restarts. No network access.
 
 `SwiftUI` `macOS 13+` `Carbon APIs`
@@ -191,16 +201,16 @@ Native macOS clipboard manager — like Windows Win+V, built with SwiftUI. Globa
 ## GitHub Insights
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=naveenbusiraju&theme=vue" alt="GitHub Profile Summary" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vnaveenb&theme=vue" alt="GitHub Profile Summary" />
 </p>
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=naveenbusiraju&theme=vue" width="320" alt="GitHub Stats" />&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=naveenbusiraju&theme=vue" width="320" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vnaveenb&theme=vue" width="320" alt="GitHub Stats" />&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vnaveenb&theme=vue" width="320" alt="Top Languages" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=naveenbusiraju&theme=vue&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vnaveenb&theme=vue&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
