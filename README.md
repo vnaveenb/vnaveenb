@@ -6,7 +6,9 @@ LangChain · LangGraph · FastAPI · Python · Docker · GCP · AWS
 </p>
 
 <p align="center">
+<a href="https://naveenb.dev/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-naveenb.dev-16a34a?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>&nbsp;
 <a href="https://linkedin.com/in/naveenbusiraju/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+<a href="https://x.com/naveenbusiraju1" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" /></a>&nbsp;
 <a href="mailto:naveenbusiraju@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
 <a href="https://github.com/vnaveenb" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
