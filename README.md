@@ -17,7 +17,7 @@ LangChain · LangGraph · FastAPI · Python · Docker · GCP · AWS
 
 ## About Me
 
-Gen AI Developer with **5.5 years of experience** building LLM systems that go to production, not just proof-of-concepts. Currently at **Atos**, where I've shipped enterprise RAG pipelines, multi-agent workflows, and document-AI systems with measurable business outcomes.
+Gen AI Developer with **5.5 years of experience** building LLM systems that go to production — not just proof-of-concepts. Currently at **Atos**, where I've shipped enterprise RAG pipelines, multi-agent workflows, and document-AI systems with measurable business outcomes.
 
 Full-stack background (Java, Spring Boot, Node.js, Angular) means I own end-to-end delivery, not just the AI layer. Cloud-native from day one: **Google Cloud Certified (2021)** and **AWS DevOps Professional (2025)**.
 
@@ -25,17 +25,17 @@ Full-stack background (Java, Spring Boot, Node.js, Angular) means I own end-to-e
 
 ## Work Experience
 
-### Atos: Gen AI Application Developer &nbsp; <small>`Dec 2023 – Present`</small>
+### Atos — Gen AI Application Developer &nbsp; <small>`Dec 2023 – Present`</small>
 > Enterprise AI: long-context RAG, multi-agent orchestration, document-AI pipelines on GCP & AWS
 
-- **65% reduction** in document review time: Long-context RAG (Azure OpenAI GPT-4 + LangChain + LangGraph) analysing course materials (PDF, DOCX, PPTX, XLSX) against compliance checklists, auto-reporting to SharePoint
-- **55% reduction** in AR resolution time: LLM-powered email agent classifying, extracting, and validating invoice data from unstructured emails and attachments
-- **96% field-level accuracy**: invoice-understanding pipeline (pdfplumber + pytesseract + Llama-3 prompting + agent validation), producing ERP-ready JSON
+- **65% reduction** in document review time — Long-context RAG (Azure OpenAI GPT-4 + LangChain + LangGraph) analysing course materials (PDF, DOCX, PPTX, XLSX) against compliance checklists, auto-reporting to SharePoint
+- **55% reduction** in AR resolution time — LLM-powered email agent classifying, extracting, and validating invoice data from unstructured emails and attachments
+- **96% field-level accuracy** — invoice-understanding pipeline (pdfplumber + pytesseract + Llama-3 prompting + agent validation), producing ERP-ready JSON
 - Multi-agent orchestration with **LangGraph + MCP**: retrieval agent, checklist agent, review agent, and orchestrator with schema enforcement and fault tolerance
 
 **Stack:** `Azure OpenAI` `LangChain` `LangGraph` `MCP` `FastAPI` `Docker` `Kubernetes` `GitHub Actions` `GCP` `AWS`
 
-### Atos: Associate Consultant &nbsp; <small>`Nov 2019 – Jan 2022`</small>
+### Atos — Associate Consultant &nbsp; <small>`Nov 2019 – Jan 2022`</small>
 > Cloud-native development, CI/CD, microservices, and GCP infrastructure
 
 - Led CI/CD implementation with GitHub Actions, Docker, and Kubernetes across GCP
@@ -48,14 +48,14 @@ Full-stack background (Java, Spring Boot, Node.js, Angular) means I own end-to-e
 
 ## GenAI Portfolio
 
-Six production-pattern LLM systems, each solving a problem that actually breaks in real deployments.
+Six production-pattern LLM systems — each solving a problem that actually breaks in real deployments.
 
 <table>
 <tr>
 <td width="50%">
 
 ### 💬 [Multi-Provider Chat Core](https://github.com/vnaveenb/llm-multi-provider-chat-gemini-openai-os)
-The provider is a **runtime env var, not a code dependency**. Swap Gemini, GPT-4o, Claude, or Bedrock with zero code changes. Real-time SSE streaming, Redis-backed conversation memory, function calling, and automatic provider fallback.
+The provider is a **runtime env var, not a code dependency** — swap Gemini, GPT-4o, Claude, or Bedrock with zero code changes. Real-time SSE streaming, Redis-backed conversation memory, function calling, and automatic provider fallback.
 
 `FastAPI` `LangChain` `Redis` `LangSmith` `Docker`
 
@@ -63,7 +63,7 @@ The provider is a **runtime env var, not a code dependency**. Swap Gemini, GPT-4
 <td width="50%">
 
 ### 🔍 [RAG App with Evaluations](https://github.com/vnaveenb/rag-eval-suite)
-Most RAG demos stop at "it works." This one **measures how well it works**, with RAGAS metrics (Faithfulness, Answer Relevancy, Context Precision, Context Recall) baked in. Local embeddings, LLMs hot-swappable via one config line.
+Most RAG demos stop at "it works." This one **measures how well it works** — RAGAS metrics (Faithfulness, Answer Relevancy, Context Precision, Context Recall) baked in. Local embeddings, LLMs hot-swappable via one config line.
 
 `FastAPI` `ChromaDB` `LiteLLM` `RAGAS` `sentence-transformers`
 
@@ -83,7 +83,7 @@ Production agents need **audit trails**. ReAct loop with exponential backoff ret
 <td width="50%">
 
 ### 📊 [Token + Cost Budget Dashboard](https://github.com/vnaveenb/token-cost-budget-dashboard)
-LLM apps **leak money silently**. Per-request token logging with exact costs, real-time dashboards by endpoint/model/user, hard 429 budget enforcement before limits are hit, not after. 40 tests passing.
+LLM apps **leak money silently**. Per-request token logging with exact costs, real-time dashboards by endpoint/model/user, hard 429 budget enforcement before limits are hit — not after. 40 tests passing.
 
 `FastAPI` `SQLite` `LiteLLM` `live dashboard`
 
@@ -95,7 +95,7 @@ LLM apps **leak money silently**. Per-request token logging with exact costs, re
 <td width="50%">
 
 ### ⚡ [Async Inference Queue](https://github.com/vnaveenb/async-llm-inference-queue)
-100 users, 10-second LLM calls. **You can't hold HTTP connections open that long.** Redis-backed priority job queue, Dead Letter Queue for failed jobs, bounded worker concurrency, real-time monitoring. 36 tests passing.
+100 users, 10-second LLM calls — **you can't hold HTTP connections open that long**. Redis-backed priority job queue, Dead Letter Queue for failed jobs, bounded worker concurrency, real-time monitoring. 36 tests passing.
 
 `FastAPI` `Redis` `Docker Compose` `LiteLLM`
 
@@ -113,6 +113,20 @@ Provider outages and rate limits shouldn't take your system down. **Circuit brea
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### 🤖 [Agentic App Builder](https://github.com/vnaveenb/agentic-app-builder/pkgs/container/ai-dev-agent)
+Multi-agent pipeline that turns a plain-English idea into a **fully coded, tested, and live-previewed web app**. LangGraph state machine coordinates Planner → Developer → Tester → Reviewer agents in a feedback loop. Supports Python, Node, React, Angular, and static runtimes in isolated sandboxes with hot-reload.
+
+`FastAPI` `LangGraph` `LangChain` `Docker` `SSE` `Multi-Agent`
+
+[Live Demo →](https://coder.naveenb.dev/)
+
+</td>
+<td width="50%">
+</td>
+</tr>
 </table>
 
 ---
@@ -124,7 +138,7 @@ Provider outages and rate limits shouldn't take your system down. **Circuit brea
 <td width="50%">
 
 ### 🌱 [Carbon Calculator Platform](https://github.com/vnaveenb/carbon-calculator)
-Role-based web app for laptop lifecycle carbon analysis: vendors upload emission profiles, admins manage regional emission factors, users estimate and compare device impact. Dockerized with GitHub Actions CI.
+Role-based web app for laptop lifecycle carbon analysis — vendors upload emission profiles, admins manage regional emission factors, users estimate and compare device impact. Dockerized with GitHub Actions CI.
 
 `Node.js` `Express` `MySQL` `Docker` `GitHub Actions`
 
@@ -134,7 +148,7 @@ Role-based web app for laptop lifecycle carbon analysis: vendors upload emission
 <td width="50%">
 
 ### 📋 [ClipboardHistory for macOS](https://github.com/vnaveenb/ClipboardHistory)
-Native macOS clipboard manager, like Windows Win+V, built with SwiftUI. Global hotkey (⌘⇧V), floating panel, instant search, pinned items, type detection. Persistent across restarts. No network access.
+Native macOS clipboard manager — like Windows Win+V, built with SwiftUI. Global hotkey (⌘⇧V), floating panel, instant search, pinned items, type detection. Persistent across restarts. No network access.
 
 `SwiftUI` `macOS 13+` `Carbon APIs`
 
