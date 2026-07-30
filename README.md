@@ -133,6 +133,18 @@ Doc-grounded chatbot with **strict per-user isolation** and answers grounded onl
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### 🏥 [Data Query Agent](https://github.com/vnaveenb/data-query-agent)
+Ask a healthcare question in plain English and watch a RAG-grounded agent write, validate, execute, and **verify** SQL against a synthetic Postgres database, live. FK-graph-expanded schema retrieval, a reason → act → observe → **verify** self-correction loop, three-layer sqlglot guardrails (allowlist AST validation, re-serialization, read-only DB role), PII-aware redaction, and a pgvector semantic cache. **93.3% execution accuracy** on a 30-case golden-set eval harness.
+
+`FastAPI` `Postgres + pgvector` `OpenAI Responses API` `sqlglot` `React`
+
+</td>
+<td width="50%">
+</td>
+</tr>
 </table>
 
 ---
